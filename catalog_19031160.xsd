@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MusicStore" type="MusicStoreType">
+  </xs:element>
+  <xs:complexType name="websiteaddressType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="web"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="telephoneno2Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:long">
+        <xs:attribute type="xs:string" name="tel_id"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="songdetailType">
+    <xs:sequence>
+      <xs:element type="genreType" name="genre" minOccurs="0">
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="songid" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="blueType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="offers"/>
+      <xs:element type="xs:string" name="buynow"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="contactType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="link"/>
+      <xs:element type="addressType" name="address"/>
+      <xs:element type="telephonenumberType" name="telephonenumber"/>
+      <xs:element type="websiteaddressType" name="websiteaddress"/>
+      <xs:element type="noteType" name="note"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="c_id"/>
+  </xs:complexType>
+  <xs:complexType name="countryType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dtlType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="year"/>
+      <xs:element type="xs:string" name="month" minOccurs="0"/>
+      <xs:element type="xs:byte" name="day" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="noofartistsType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="featbyType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="genreType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="songname"/>
+      <xs:element type="genrenameType" name="genrename"/>
+      <xs:element type="countryType" name="country"/>
+      <xs:element type="directornameType" name="directorname" minOccurs="0"/>
+      <xs:element type="producerType" name="producer"/>
+      <xs:element type="writerType" name="writer"/>
+      <xs:element type="singersType" name="singers"/>
+      <xs:element type="featbyType" name="featby" minOccurs="0"/>
+      <xs:element type="noofartistsType" name="noofartists" minOccurs="0"/>
+      <xs:element type="releaseyearType" name="releaseyear"/>
+      <xs:element type="songlengthType" name="songlength"/>
+      <xs:element type="albumType" name="album" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="genre_name" use="optional"/>
+    <xs:attribute type="xs:string" name="genre_id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="MusicStoreType">
+    <xs:sequence>
+      <xs:element type="blueType" name="blue"/>
+      <xs:element type="xs:string" name="pattern"/>
+      <xs:element type="xs:string" name="slogan"/>
+      <xs:element type="storeinfoType" name="storeinfo"/>
+      <xs:element type="songsType" name="songs"/>
+      <xs:element type="contactType" name="contact"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="genrenameType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="songsType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:string" name="img1"/>
+      <xs:element type="songdetailType" name="songdetail"/>
+      <xs:element name="img13">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="img3">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="img5">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="img4">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="img6">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="img7">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="genreType" name="genre" minOccurs="0">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="songid" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="albumType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="telephoneno3Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:long">
+        <xs:attribute type="xs:string" name="tel_id"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="writerType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addressType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="con"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="ad"/>
+  </xs:complexType>
+  <xs:complexType name="singersType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="songlengthType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="releaseyearType" mixed="true">
+    <xs:sequence>
+      <xs:element type="dtlType" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="producerType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="noteType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="note_id"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="telephoneno1Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:long">
+        <xs:attribute type="xs:string" name="tel_id"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="telephonenumberType" mixed="true">
+    <xs:sequence>
+      <xs:element type="telephoneno1Type" name="telephoneno1"/>
+      <xs:element type="telephoneno2Type" name="telephoneno2"/>
+      <xs:element type="telephoneno3Type" name="telephoneno3"/>
+      <xs:element type="xs:string" name="telephoneno4"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="tel_phone"/>
+  </xs:complexType>
+  <xs:complexType name="directornameType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dtl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="storeinfoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="logo"/>
+      <xs:element type="xs:string" name="storename"/>
+      <xs:element type="xs:string" name="aboutstore"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="store"/>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19031160.css"?>
+<!DOCTYPE MusicStore SYSTEM "19031160.dtd">
+<!-- xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="catalog_19031160.xsd" -->
+<MusicStore>
+	<blue>
+		<offers>Get 1 music free on 2 purchase. SUBSCRIBE <![CDATA[&]]> SAVE 20%</offers>
+		<buynow/>
+	</blue>
+	<pattern/>
+	<slogan>Music is the mediator between the spiritual and the sensual life.</slogan>
+	<storeinfo store="S1">
+		<logo/>
+		<storename>Sound Soul</storename>
+		<aboutstore><![CDATA[Sound Soul is a full-fledged online musical instruments store that sells all kinds of musics,musical instruments & related equipment & accessories in US.We proudly deal in the best musical instruments, accessories & studio recording equipments.We are also committed to help the musicians by providng them a music class from best teachers. We were among the earliest catalog marketers of music gear & the first to focus on rock-band gear, so we experienced amazingly rapid growth.]]></aboutstore>
+	</storeinfo>
+	<songs>
+		<img1/>
+		<songdetail songid="SID1">
+			<!--genre_id required-->
+			<genre genre_name="rock" genre_id="r1">
+				<songname>Nothing Else Matters</songname>
+				<genrename>Genre: <dtl>Rock</dtl></genrename>
+				<country> Country: <dtl>US</dtl></country>
+				<producer> Producer:  <dtl>Lars Ulrich</dtl>	</producer>
+				<writer>  Writer:   <dtl>James Hetfield</dtl></writer>
+				<singers>Singers: <dtl>James Hetfield</dtl></singers>
+				<noofartists> No of Artists: <dtl>4</dtl></noofartists>
+				<releaseyear>Release Year: <dtl><year>1992/</year></dtl></releaseyear>
+				<songlength> Song Length:  <dtl>6:28</dtl></songlength>
+			</genre>
+		</songdetail>
+		<img13/>
+		<songdetail songid="SID2">
+			<genre genre_name="pop" genre_id="p1">
+				<songname>7 rings</songname>
+				<genrename>
+               Genre:
+               <dtl>Pop</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>UK</dtl>
+				</country>
+				<directorname>
+               Director Name:
+               <dtl>Hannah Lux Davis</dtl>
+				</directorname>
+				<producer>
+               Producer:
+               <dtl>Tommy Brown, Micheal Foster</dtl>
+				</producer>
+				<writer>
+               Writer:
+               <dtl>Victoria Monet, Tayla Parx</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Ariana Grande</dtl>
+				</singers>
+				<noofartists>
+               No of Artists:
+               <dtl>1</dtl>
+				</noofartists>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>2019/</year>
+						<month>01/</month>
+						<day>18</day>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>2:58</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>Thank U,Next</dtl>
+				</album>
+			</genre>
+		</songdetail>
+		<img3/>
+		<songdetail songid="SID3">
+			<genre genre_name="rap" genre_id="rap1">
+				<songname>Rap Devil</songname>
+				<genrename>
+               Genre:
+               <dtl>Rap</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>US</dtl>
+				</country>
+				<directorname>
+               Director Name:
+               <dtl>Ronny J</dtl>
+				</directorname>
+				<producer>
+               Producer:
+               <dtl>Ronny J</dtl>
+				</producer>
+				<writer>
+               Writer:
+               <dtl>Richard Baker, Ronald Spence Jr</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Machine Gun Kelly(MGK)</dtl>
+				</singers>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>2018/</year>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>4:46</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>Binge</dtl>
+				</album>
+			</genre>
+		</songdetail>
+		<img5/>
+		<songdetail songid="SID4">
+			<genre genre_name="hiphop" genre_id="h1">
+				<songname>Sicko Mode</songname>
+				<genrename>
+               Genre:
+               <dtl>Hip Hop</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>US</dtl>
+				</country>
+				<producer>
+               Producer:
+               <dtl>Tay Keith, Chahayed</dtl>
+				</producer>
+				<writer>
+               Writer:
+               <dtl>Aubrey Graham,John Hawkins</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Travis Scott</dtl>
+				</singers>
+				<featby>
+               Feat By:
+               <dtl>Drake</dtl>
+				</featby>
+				<noofartists>
+               No of Artists:
+               <dtl>2</dtl>
+				</noofartists>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>2018/</year>
+						<month>8/</month>
+						<day>21</day>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>5:12</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>Champion</dtl>
+				</album>
+			</genre>
+		</songdetail>
+		<img4/>
+		<songdetail songid="SID5">
+			<genre genre_name="countrymusic" genre_id="cm1">
+				<songname>Down To One</songname>
+				<genrename>
+               Genre:
+               <dtl>Country Music</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>US</dtl>
+				</country>
+				<directorname>
+               Director Name:
+               <dtl>Micheal Monnaco</dtl>
+				</directorname>
+				<producer>
+               Producer:
+               <dtl>Jody Stevens, Jeff Stevens</dtl>
+				</producer>
+				<writer>
+               Writer:
+               <dtl>Justin Ebach, Kyle Fishman</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Luke Bryan</dtl>
+				</singers>
+				<featby>
+               Feat By:
+               <dtl/>
+				</featby>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>2020/</year>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>3:41</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>One Magarita</dtl>
+				</album>
+			</genre>
+		</songdetail>
+		<img6/>
+		<songdetail songid="SID6">
+			<genre genre_name="rock" genre_id="r1">
+				<songname>Guns N Roses</songname>
+				<genrename>
+               Genre:
+               <dtl>Rock</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>US</dtl>
+				</country>
+				<directorname>
+               Director Name:
+               <dtl>Stephane Sednaoui</dtl>
+				</directorname>
+				<producer>
+               Producer:
+               <dtl>Mike Clink</dtl>
+				</producer>
+				<writer>2
+               Writer:
+               <dtl>Guns'N Roses</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Guns'N Roses</dtl>
+				</singers>
+				<featby>
+               Feat By:
+               <dtl/>
+				</featby>
+				<noofartists>
+               No of Artists:
+               <dtl>5</dtl>
+				</noofartists>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>1998/</year>
+						<month>06/</month>
+						<day>21</day>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>5:55</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>Welcome To the jungle</dtl>
+				</album>
+			</genre>
+		</songdetail>
+		<img7/>
+		<songdetail songid="SID7">
+			<genre genre_name="pop" genre_id="p1">
+				<songname>Yummy</songname>
+				<genrename>
+               Genre:
+               <dtl>Pop</dtl>
+				</genrename>
+				<country>
+               Country:
+               <dtl>Canada</dtl>
+				</country>
+				<directorname>
+               Director Name:
+               <dtl>Mike Rikd</dtl>
+				</directorname>
+				<producer>
+               Producer:
+               <dtl>Kid Culture, Sasha Sirota</dtl>
+				</producer>
+				<writer>
+               Writer:
+               <dtl>Ashley Boyd, Jason Boyd</dtl>
+				</writer>
+				<singers>
+               Singers:
+               <dtl>Justin Bieber</dtl>
+				</singers>
+		<featby>
+               Feat By:
+               <dtl/>
+				</featby>
+				<releaseyear>
+               Release Year:
+               <dtl>
+						<year>2020/</year>
+						<month>03/</month>
+						<day>3</day>
+					</dtl>
+				</releaseyear>
+				<songlength>
+               Song Length:
+               <dtl>3:30</dtl>
+				</songlength>
+				<album>
+               Album Name:
+               <dtl>10,000 Hours</dtl>
+				</album>
+			</genre>
+		</songdetail>
+	</songs>
+	<contact c_id="CO1">
+		<link/>
+		<address ad="AO1">
+         ADDRESS:
+         <con>Balaju,KTM,Nepal</con>
+		</address>
+		<telephonenumber tel_phone="t1">
+         CONTACT US:
+         <telephoneno1 tel_id="ti1">9843662374</telephoneno1>
+			<telephoneno2 tel_id="ti2">9858237489</telephoneno2>
+			<telephoneno3 tel_id="ti3">9806242634</telephoneno3>
+			<telephoneno4/>
+		</telephonenumber>
+		<websiteaddress web="w1">OUR WEBSITE: www.soulsound.com</websiteaddress>
+		<note note_id="N1"><![CDATA[Copyright © 2016-2021, Soul Sound Private Limited.All Rights Reserved]]></note>
+	</contact>
+</MusicStore>

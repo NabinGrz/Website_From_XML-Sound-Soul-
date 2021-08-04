@@ -1,0 +1,68 @@
+<!ELEMENT MusicStore (blue?,pattern?,slogan?,storeinfo?,songs?,contact?)>
+<!ELEMENT blue (offers?,buynow?)>
+<!ELEMENT offers (#PCDATA)>
+<!ELEMENT buynow EMPTY>
+<!ELEMENT pattern EMPTY>
+<!ELEMENT slogan (#PCDATA)>
+<!ELEMENT storeinfo (logo?,storename?,aboutstore?)>
+<!ATTLIST storeinfo store ID #REQUIRED>
+<!ELEMENT logo EMPTY>
+<!ELEMENT storename (#PCDATA)>
+<!ELEMENT aboutstore (#PCDATA)>
+<!ELEMENT songs (img1|songdetail|img13|img3|img5|img4|img6|img7)*>
+<!ELEMENT img1 EMPTY>
+<!ELEMENT songdetail (genre*)>
+<!ATTLIST songdetail songid ID #REQUIRED>
+<!ELEMENT genre (singers|songname|featby|genrename|country|producer|writer|noofartists|releaseyear|songlength|directorname|album)*>
+<!ATTLIST genre 
+	genre_name (rock | pop | countrymusic | rap | hiphop) #IMPLIED
+    genre_id ( r1 | p1 | cm1 | rap1 | h1) #IMPLIED>
+<!ELEMENT songname (#PCDATA)>
+<!ELEMENT genrename (#PCDATA|dtl)*>
+<!ELEMENT dtl (#PCDATA|year|month|day)*>
+<!ELEMENT country (#PCDATA|dtl)*>
+<!ELEMENT producer (#PCDATA|dtl)*>
+<!ELEMENT writer (#PCDATA|dtl)*>
+<!ELEMENT singers (#PCDATA|dtl)*>
+<!ELEMENT noofartists (#PCDATA|dtl)*>
+<!ELEMENT releaseyear (#PCDATA|dtl)*>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT songlength (#PCDATA|dtl)*>
+<!ELEMENT img13 EMPTY>
+<!ELEMENT directorname (#PCDATA|dtl)*>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT album (#PCDATA|dtl)*>
+<!ELEMENT img3 EMPTY>
+<!ELEMENT img5 EMPTY>
+<!ELEMENT featby (#PCDATA|dtl)*>
+<!ELEMENT img4 EMPTY>
+<!ELEMENT img6 EMPTY>
+<!ELEMENT img7 EMPTY>
+<!ELEMENT contact (link|address|telephonenumber|websiteaddress|note)*>
+<!ATTLIST contact c_id ID #REQUIRED>
+<!ELEMENT link EMPTY>
+<!ELEMENT address (#PCDATA|con)*>
+<!ATTLIST address ad ID #REQUIRED >
+<!ELEMENT con (#PCDATA)>
+<!ELEMENT telephonenumber (#PCDATA|telephoneno1|telephoneno2|telephoneno3|telephoneno4)*>
+<!ATTLIST telephonenumber tel_phone  ID #REQUIRED>
+<!ELEMENT telephoneno1 (#PCDATA)>
+<!ATTLIST telephoneno1 tel_id ID #REQUIRED >
+<!ELEMENT telephoneno2 (#PCDATA)>
+<!ATTLIST telephoneno2 tel_id ID #REQUIRED >
+<!ELEMENT telephoneno3 (#PCDATA)>
+<!ATTLIST telephoneno3 tel_id ID #REQUIRED>
+<!ELEMENT telephoneno4 (#PCDATA)>
+<!ATTLIST telephoneno4  tel_id CDATA "ti4" >
+<!ELEMENT websiteaddress (#PCDATA)>
+<!ATTLIST websiteaddress web ID #REQUIRED >
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST note note_id ID #REQUIRED>
+<!ENTITY DCT5Z "US">
+<!ENTITY SM128 "SmartMedia 128mb Card">
+<!ENTITY RCL "Rechargeable Lithum Ion Battery">
+<!ENTITY BCE4L "Battery Charger 4pt Lithum">
+<!ENTITY WBC500 "WebNow Webcam 500">
+<!ENTITY RCA "Rechargeable Alkaline Battery">
+<!ENTITY SCL4C "Linton Flatbed Scanner 4C">
